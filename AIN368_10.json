@@ -11,11 +11,16 @@
 	"webcomponents": [
 		{
 			"kind": "main",
-			"tag": "com-sap-teched-01",
+			"tag": "com-sap-teched-gauge-10",
 			"url": "https://sapteched2019ain369.github.io/AIN368_10/webcomponent.js",
-			"properties" : [ ],
 			"integrity" : "",
 			"ignoreIntegrity" : true
+		}, {
+			"kind": "styling",
+			"tag": "com-sap-teched-gauge-10-aps",
+            "url": "https://sapteched2019ain369.github.io/AIN368_10/aps_webcomponent.js",
+			"integrity": "",
+            "ignoreIntegrity" : true
 		}
     ],
 	"properties": {
