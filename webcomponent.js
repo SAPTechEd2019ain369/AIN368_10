@@ -10,7 +10,7 @@
       </style>
     `;
 
-    d3Script.onload = () => 
+    // d3Script.onload = () => 
 
     customElements.define('com-sap-teched-gauge-10', class Gauge extends HTMLElement {
 
