@@ -15,25 +15,25 @@
     customElements.define('com-sap-teched-gauge-10', class Gauge extends HTMLElement {
 
 
-        disconnectedCallback () {
-            // your cleanup code goes here
-            try{
-                document.head.removeChild(d3Script);
-            }
-            catch{}
-        }
+        // disconnectedCallback () {
+        //     // your cleanup code goes here
+        //     try{
+        //         document.head.removeChild(d3Script);
+        //     }
+        //     catch{}
+        // }
     
-        constructor() {
-            super();
-            //Constants
-            if (!window._d3){
-                window._d3 = d3;
-            }
+        // constructor() {
+        //     super();
+        //     //Constants
+        //     if (!window._d3){
+        //         window._d3 = d3;
+        //     }
             
-            this._shadowRoot = this.attachShadow({mode: 'open'});
-            this._shadowRoot.appendChild(tmpl.content.cloneNode(true));
-            this._svgContainer;
-        };
+        //     this._shadowRoot = this.attachShadow({mode: 'open'});
+        //     this._shadowRoot.appendChild(tmpl.content.cloneNode(true));
+        //     this._svgContainer;
+        // };
     
     
     });
