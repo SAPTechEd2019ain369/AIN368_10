@@ -110,16 +110,15 @@
                 .attr("stroke", this._ringColorCode)
                 .attr("stroke-width", this._bracketThickness)
                 .attr("fill", "none");
-
-             //Helper function 
-            endPoints (lineLength, lineAngle){
-                var pi = Math.PI;
-                var endX = this._outerRad + (lineLength * Math.sin(lineAngle * (pi/180)));
-                var endY = this._outerRad - (lineLength * Math.cos(lineAngle * (pi/180)));
-                return {x:endX, y:endY}
-             };
-        }
-    
+        };
+        
+        //Helper function 
+        endPoints (lineLength, lineAngle) {
+            var pi = Math.PI;
+            var endX = this._outerRad + (lineLength * Math.sin(lineAngle * (pi/180)));
+            var endY = this._outerRad - (lineLength * Math.cos(lineAngle * (pi/180)));
+            return {x:endX, y:endY}
+         };
        
     });
         
